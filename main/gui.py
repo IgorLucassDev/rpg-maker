@@ -40,6 +40,7 @@ def mainFunction():
     """
     #raça_resultado = raça_select
     infoLabel ['text'] = Info
+    generateButton ['text'] = 'Gerar novamente'
 
 
 #GUI
