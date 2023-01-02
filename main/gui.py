@@ -46,13 +46,13 @@ def mainFunction():
 App = Tk()
 App.title('RPG Generator')
 
-Title = Label(App, text='Generate a random D&D character')
+Title = 0,Label(App, text='Generate a random D&D character', font='Arial 15 bold')
 Title.grid(column=0,row=0)
 
 infoLabel = Label(App, text='')
 infoLabel.grid(column=0,row=1)
 
 generateButton = Button(App,command=mainFunction,text='Gerar Personagem')
-generateButton.grid(column=0,row=2)
+generateButton.grid(column=0,row=2, pady=2)
 
 App.mainloop()
