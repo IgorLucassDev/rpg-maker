@@ -46,7 +46,7 @@ def mainFunction():
 App = Tk()
 App.title('RPG Generator')
 
-Title = 0,Label(App, text='Generate a random D&D character', font='Arial 15 bold')
+Title = Label(App, text='Generate a random D&D character', font='Arial 15 bold')
 Title.grid(column=0,row=0)
 
 infoLabel = Label(App, text='')
